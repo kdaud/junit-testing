@@ -3,6 +3,8 @@ package com.junit.tests;
 
 public class Beginners {
 	
+	boolean isitHot;
+	
 	public String concatinate(String fname, String lname) {
 		return fname + " " + lname;
 	}
@@ -16,9 +18,10 @@ public class Beginners {
 		return k * k;
 	}
 	
-	public boolean itsHot(boolean b) {
+	public boolean itsHot() {
+		isitHot = true;
 		
-		return false;
+		return isitHot;
 	}
 	
 }

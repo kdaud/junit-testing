@@ -16,4 +16,9 @@ public class Beginners {
 		return k * k;
 	}
 	
+	public boolean itsHot(boolean b) {
+		
+		return false;
+	}
+	
 }

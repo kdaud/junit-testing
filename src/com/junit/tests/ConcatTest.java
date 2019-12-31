@@ -36,4 +36,10 @@ class ConcatTest {
 		assertEquals(2, sess);
 	}
 	
+	@Test
+	public void tests() {
+		boolean myres = obj.itsHot(false);
+		assertEquals(false, myres);
+	}
+	
 }

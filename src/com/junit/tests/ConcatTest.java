@@ -16,4 +16,10 @@ class ConcatTest {
 		
 	}
 	
+	@Test
+	public void myTest() {
+		int myres = obj.multiply(2, 2, 3);
+		assertEquals(12, myres);
+	}
+	
 }

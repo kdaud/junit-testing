@@ -7,4 +7,8 @@ public class Beginners {
 		return fname + " " + lname;
 	}
 	
+	public int multiply(int x, int y, int z) {
+		return x * y * z;
+	}
+	
 }

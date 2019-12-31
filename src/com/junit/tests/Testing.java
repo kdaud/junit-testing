@@ -8,6 +8,7 @@ public class Testing {
 		String name = obj.concatinate("Magari", "Godfrey");
 		System.out.println(name);
 		System.out.println(obj.concatinate("Aidah", "Nassali"));
+		System.out.println(obj.multiply(4, 3, 2));
 	}
 	
 }

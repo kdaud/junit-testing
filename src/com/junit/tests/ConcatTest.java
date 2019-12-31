@@ -40,6 +40,7 @@ class ConcatTest {
 	public void tests() {
 		boolean myres = obj.itsHot();
 		assertEquals(true, myres);
+		//comment
 	}
 	
 }

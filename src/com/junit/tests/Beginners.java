@@ -11,4 +11,9 @@ public class Beginners {
 		return x * y * z;
 	}
 	
+	public int square(int k) {
+		
+		return k * k;
+	}
+	
 }

@@ -9,6 +9,8 @@ class ConcatTest {
 	
 	Beginners obj = new Beginners();
 	
+	Software obb = new Software();
+	
 	@Test
 	public void test() {
 		String result = obj.concatinate("Ivan", "Senda");
@@ -20,6 +22,18 @@ class ConcatTest {
 	public void myTest() {
 		int myres = obj.multiply(2, 2, 3);
 		assertEquals(12, myres);
+	}
+	
+	@Test
+	public void mySquare() {
+		int ress = obj.square(4);
+		assertEquals(16, ress);
+	}
+	
+	@Test
+	public void myWord() {
+		int sess = obb.count("Kakumirizi");
+		assertEquals(2, sess);
 	}
 	
 }

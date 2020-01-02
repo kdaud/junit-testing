@@ -18,6 +18,10 @@ public class Favourite {
 		}
 	}
 	
+	public void accessprivate() {
+		this.show();
+	}
+	
 	public void run() {
 		Random r = new Random();
 		for (int i = 0; i <= 15; i++) {

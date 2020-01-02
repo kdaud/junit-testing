@@ -8,9 +8,9 @@ public class Test {
 	
 	public static void main(String[] args) {
 		Favourite obj = new Favourite();
-		System.out.println("-----------------------------");
+		System.out.println("---------------------------------");
 		obj.run();
-		System.out.println("+++++++++++++++++++++++++++++");
+		System.out.println("\n++++++++++++++++++++++++++++++++");
 		obj.accessprivate();
 		
 	}

@@ -14,7 +14,7 @@ public class Favourite {
 		country.put("Khartum", "South Sudan");
 		
 		for (String ss : country.keySet()) {
-			System.out.println(ss + " --> ");
+			System.out.println(ss + " --> " + country.get(ss));
 		}
 	}
 	

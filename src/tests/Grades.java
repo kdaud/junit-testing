@@ -40,9 +40,10 @@ public class Grades {
 	
 
 	public static void main(String[] args) {
-		//new Grades().showMarks();
-		System.err.println("Hello World from JAVA TECH");
+		new Grades().showMarks();
+		System.out.println("Hello World from JAVA TECH");
 		
+
 	}
 	
 	public void showMarks() {
@@ -62,7 +63,7 @@ public class Grades {
 			System.err.println("Enter a string" + e.getMessage());
 		}
 		finally {
-			scanner.close();
+			System.out.println("Finally Block will always run");
 		}
 		System.out.println(student+" obtained "+marks);
 		

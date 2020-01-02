@@ -1,13 +1,13 @@
 package com.software;
 
-import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 import java.util.Random;
 
 public class Favourite {
 	
 	private void show() {
-		Map<String, String> country = new HashMap<>();
+		Map<String, String> country = new Hashtable<>();
 		country.put("Nairobi", "Kenya");
 		country.put("Kampala", "Uganda");
 		country.put("Kigali", "Rwanda");

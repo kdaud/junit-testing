@@ -12,21 +12,23 @@ public class Favourite {
 		country.put("Kampala", "Uganda");
 		country.put("Kigali", "Rwanda");
 		country.put("Khartum", "South Sudan");
-		for (int i = 0; i < country.size(); i++) {
-			System.out.println(country);
-			
+		
+		for (String ss : country.keySet()) {
+			System.out.println(ss + " --> " + country.get(ss));
 		}
+	}
+	
+	public void accessprivate() {
+		this.show();
 	}
 	
 	public void run() {
 		Random r = new Random();
 		for (int i = 0; i <= 15; i++) {
-			System.out.println(r.nextInt(70));
+			System.out.print(r.nextInt(20) + " ");
 		}
 	}
 	
-	public static void main(String[] args) {
-		
-	}
 	
+
 }

@@ -10,9 +10,9 @@ public class Test {
 		Favourite obj = new Favourite();
 		System.out.println("-----------------------------");
 		obj.run();
-		System.out.println("\n+++=====++++======++++====");
-		obj.accessprivate();
 		System.out.println("+++++++++++++++++++++++++++++");
+		obj.accessprivate();
+		
 	}
 	
 }

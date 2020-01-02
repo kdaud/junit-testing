@@ -12,6 +12,15 @@ public class Test {
 		obj.run();
 		System.out.println("\n++++++++++++++++++++++++++++++++");
 		obj.accessprivate();
+		System.out.println(",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,");
+		new Mapping() {
+			
+			@Override
+			public void myPhone() {
+				System.out.println("HELLO PROGRAMMER");
+				
+			}
+		}.myPhone();
 		
 	}
 	

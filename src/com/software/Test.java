@@ -8,7 +8,9 @@ public class Test {
 	
 	public static void main(String[] args) {
 		Favourite obj = new Favourite();
+		System.out.println("----------------------");
 		obj.run();
+		System.out.println("+++=====++++======++++====");
 	}
 	
 }

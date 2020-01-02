@@ -21,12 +21,10 @@ public class Favourite {
 	public void run() {
 		Random r = new Random();
 		for (int i = 0; i <= 15; i++) {
-			System.out.println(r.nextInt(70));
+			System.out.print(r.nextInt(20) + " ");
 		}
 	}
 	
-	public static void main(String[] args) {
-		
-	}
 	
+
 }

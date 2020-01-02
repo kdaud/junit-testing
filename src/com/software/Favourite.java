@@ -13,8 +13,11 @@ public class Favourite {
 		country.put("Kigali", "Rwanda");
 		country.put("Khartum", "South Sudan");
 		for (int i = 0; i < country.size(); i++) {
-			System.out.println(country + " -> " + country.get(i));
+			System.out.println(i + " -> " + country.get(i));
 			
+		}
+		for (String ss : country.keySet()) {
+			System.out.println(ss + " --> ");
 		}
 	}
 	

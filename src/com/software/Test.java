@@ -21,6 +21,7 @@ public class Test {
 				
 			}
 		}.myPhone();
+		System.out.println(obj.showCode(9, 5));
 		
 	}
 	

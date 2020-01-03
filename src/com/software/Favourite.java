@@ -34,6 +34,11 @@ public class Favourite {
 		}
 	}
 	
+	public int showCode(int g, int y) {
+		return g * y;
+		
+	}
+	
 	
 
 }

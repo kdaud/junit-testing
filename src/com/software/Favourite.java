@@ -11,9 +11,14 @@ public class Favourite {
 		country.put("Nairobi", "Kenya");
 		country.put("Kampala", "Uganda");
 		country.put("Kigali", "Rwanda");
+		country.put("Accra", "Ghana");
 		country.put("Khartum", "South Sudan");
+		country.put("Bujumbura", "Burundi");
 		
-		for (String ss : country.keySet()) {
+		Iterable<String> count = country.keySet();
+		
+
+		for (String ss : count) {
 			System.out.println(ss + " --> " + country.get(ss));
 		}
 	}

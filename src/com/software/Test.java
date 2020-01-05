@@ -1,7 +1,9 @@
 package com.software;
 
+import java.util.Date;
 
 public class Test {
+	
 	static {
 		System.out.println("My Journey as a Software Engineer");
 	}
@@ -23,6 +25,9 @@ public class Test {
 		}.myPhone();
 		System.out.println(obj.showCode(9, 5));
 		
+		System.out.println(new Date());
+		
 	}
 	
+
 }
